@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Launch Radar: pre-token protocols ranked by implied value</title>
+<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to the board</a>
+<header class="top">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14"/><circle cx="16" cy="16" r="8"/><path d="M16 16 L27 9"/><circle class="blip" cx="22" cy="12" r="2.2"/></svg>
+    <div>
+      <h1>Launch Radar</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+  </div>
+  <nav class="tabs" aria-label="Views">
+    <a href="#view=board" data-view="board">Board</a>
+    <a href="#view=model" data-view="model">Value model</a>
+    <a href="#view=live" data-view="live">Live tokens</a>
+  </nav>
+</header>
+<section class="kpis" id="kpis" aria-label="Board summary"></section>
+<main id="main" tabindex="-1"></main>
+<footer class="foot" id="foot"></footer>
+<script src="../data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
